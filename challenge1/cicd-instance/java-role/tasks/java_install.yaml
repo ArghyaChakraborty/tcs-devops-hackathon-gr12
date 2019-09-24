@@ -15,6 +15,7 @@
       src: "/opt/apache-maven-3.0.5/bin/mvn"
       dest: /usr/bin/mvn
       state: link
+      force: yes
 
 - name: Configure maven and environment variables
   lineinfile:
