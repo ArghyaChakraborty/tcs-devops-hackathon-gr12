@@ -5,6 +5,7 @@ Description=Start Nexus Sonatype Docker Conatiner
 Type=simple
 ExecStart=/etc/systemd/system/start-nexus.sh
 ExecStop=/etc/systemd/system/stop-nexus.sh
+RemainAfterExit=yes
 User=root
 Group=root
 
